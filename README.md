@@ -55,6 +55,19 @@ Example : In body
 Now try to Post the data then user receive token of length 32 with status 200
 ![Screenshot 2024-10-28 214622](https://github.com/user-attachments/assets/1d06edbb-1811-497e-91d8-00e3257e2641)
 
+## Login
+- Use POST method
+- POST    : http://127.0.0.1:8000/chat/
+Example : In body 
+{
+    "message":"code hello world in python"
+}
+Now provide the authentication token in headers and give message in body section and in response Chat Ai respond with relevant information. And user is deducted with 100 tokens.
+![Screenshot 2024-10-28 214836](https://github.com/user-attachments/assets/ac1f4077-a063-4489-9f9b-ed3b351122e4)
+![Screenshot 2024-10-28 214911](https://github.com/user-attachments/assets/92d6dbea-be77-4a91-b5c2-fb6b06a30b8b)
+
+
+
 
 
 
