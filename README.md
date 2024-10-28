@@ -41,6 +41,8 @@ Example : In body
     "password":"pass123"
 }
 Now try to Post the data then user receive registration successfull with status code 201 Created.
+![Screenshot 2024-10-28 214210](https://github.com/user-attachments/assets/3d8cbb9d-8aad-46b5-a7e7-171cecf35b15)
+
 
 ## Login
 - Use POST method
@@ -51,8 +53,8 @@ Example : In body
     "password":"pass123"
 }
 Now try to Post the data then user receive token of length 32 with status 200
-(![App Screenshot](images/screenshot.png "Sample screenshot of the app")
- "Sample screenshot of the app")
+
+
 
 
 
