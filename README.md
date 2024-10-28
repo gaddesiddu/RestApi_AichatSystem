@@ -55,7 +55,7 @@ Example : In body
 Now try to Post the data then user receive token of length 32 with status 200
 ![Screenshot 2024-10-28 214622](https://github.com/user-attachments/assets/1d06edbb-1811-497e-91d8-00e3257e2641)
 
-## Login
+## Chat with AI
 - Use POST method
 - POST    : http://127.0.0.1:8000/chat/
 Example : In body 
