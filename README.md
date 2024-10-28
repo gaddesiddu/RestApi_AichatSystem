@@ -25,6 +25,34 @@ Then run migrations in terminal
 
 - Python manage.py makemigrations
 - python manage.py migrate
+  
 This migrations will make ensure that models have been updated at admin site.
+
+## Run Server
+
+Run server -  python manage.py runserver
+
+## How to register 
+- Use POST method
+- POST    : http://127.0.0.1:8000/register/
+Example : In body 
+{
+    "username":"user",
+    "password":"pass123"
+}
+Now try to Post the data then user receive registration successfull with status code 201 Created.
+
+## Login
+- Use POST method
+- POST    : http://127.0.0.1:8000/login/
+Example : In body 
+{
+    "username":"user",
+    "password":"pass123"
+}
+Now try to Post the data then user receive token of length 32 with status 200
+(![App Screenshot](images/screenshot.png "Sample screenshot of the app")
+ "Sample screenshot of the app")
+
 
 
