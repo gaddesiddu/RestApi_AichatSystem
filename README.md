@@ -66,6 +66,26 @@ Now provide the authentication token in headers and give message in body section
 ![Screenshot 2024-10-28 214836](https://github.com/user-attachments/assets/ac1f4077-a063-4489-9f9b-ed3b351122e4)
 ![Screenshot 2024-10-28 214911](https://github.com/user-attachments/assets/92d6dbea-be77-4a91-b5c2-fb6b06a30b8b)
 
+## Balance of token
+- Use POST method
+- POST    : http://127.0.0.1:8000/balance/
+User receive token balance with status code 200, for each response from chatAi get deducted with 100 tokens. If balance of token is less than 100 then user get response from server with out of tokens.
+![Screenshot 2024-10-28 215519](https://github.com/user-attachments/assets/2f3efbfc-7d6d-4e87-9c54-03b31fa2caeb)
+
+## Run Server
+
+Run server -  python manage.py runserver
+
+## Tech Stack
+
+**Python, Django Rest Framework, Sqlite**
+
+
+
+
+
+
+
 
 
 
